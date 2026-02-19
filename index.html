@@ -70,11 +70,44 @@
         background: #358bdb;
 
     }
+    nav{
+        background: #1f3c88;
+        padding: 15px;
+        text-align: center;
+    }
+    nav a{
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    .cards {
+        display: flex;
+        gap: 20px;
+        margin-top: 15px;
+    }
+    .card {
+        background: #e9ecef;
+        padding: 20px;
+        border-radius: 10px;
+        flex: 1;
+        text-align: center;
+        font-weight: bold;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    }
 
     </style>
 </head>
 <body>
-    
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+
+    </nav>
     <div class="container">
     <h1>Começando minha transição para TI</h1>
 
@@ -84,13 +117,19 @@
 
     <h2>Meus Objetivos</h2>
     
-    <div class="objetivos">
+    <div class="cards">
 
-        <div class="card">Aprender desenvolvimento web</div>
+        <div class="card">
+            Aprender desenvolvimento web
+        </div>
 
-        <div class="card">Criar minha loja virtual</div>
+        <div class="card">
+            Criar minha loja virtual
+        </div>
 
-        <div class="card">Fazer renda com freelancer</div>
+        <div class="card">
+            Fazer renda como freelancer
+        </div>
 
     </div>
 
