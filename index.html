@@ -109,25 +109,32 @@
         transform: translateY(-5px);
         box-shadow: 0px 8px 18px rgba(0,0,0,0.2);
     }
-
+    html {
+        scroll-behavior: smooth;
+    }
     </style>
 </head>
 <body>
     <nav>
-        <a href="#">Início</a>
-        <a href="#">Sobre</a>
-        <a href="#">Contato</a>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
 
     </nav>
+    <section id="inicio">
     <div class="container">
     <h1>Começando minha transição para TI</h1>
+    </section>
 
     <img src="criacao.jpg" alt="criacao">
 
-    <p>Hoje comecei oficialmente minha jornada para me tornar desenvolvedor e criar minha propria renda com tecnologia.</p>
-
-    <h2>Meus Objetivos</h2>
     
+    <p>Hoje comecei oficialmente minha jornada para me tornar desenvolvedor e criar minha propria renda com tecnologia.</p>
+    
+    <section id="sobre">
+    <h2>Meus Objetivos</h2>
+    </section>
+
     <div class="cards">
 
         <div class="card">
@@ -145,8 +152,9 @@
     </div>
 
     
-
+    <section id="contato">
     <h2>Contatos</h2>
+    </section>
 
     <a href="https://www.google.com/?hl=pt_BR">Meu primeiro link</a>
     <button>Fale Comigo</button>
