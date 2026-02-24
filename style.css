@@ -142,4 +142,37 @@ body {
     .logo {
         color: aliceblue;
     }
+    .hero {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        color: white;
+
+    }
+    .hero-content h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .hero-content p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .btn {
+        display: inline-block; /*MUITO IMPORTANTE */
+        background-color: #00c6ff;
+        color: black;
+        padding: 12px 25px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+    .btn:hover {
+        background-color: white;
+        transform: scale(1.1);
+    }
    
