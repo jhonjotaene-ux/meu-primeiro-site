@@ -175,4 +175,37 @@ body {
         background-color: white;
         transform: scale(1.1);
     }
+    .teste-flex {display: flex;
+        background: #a89d9d;
+        padding: 20px;
+        justify-content: space-around;
+        align-items: center;
+        height: 300px;
+        flex-direction: row;
+        
+    }
+    .box {
+        width: 100px;
+        height: 100px;
+        background: #00c6ff;
+        margin: 10px;
+    }
+    .centralizar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .caixa-central {
+    width: 200px;
+    height: 120px;
+    background: blue;
+    color: white;
+    border-radius: 8px;
+
+    display: flex;              /* ativa flex */
+    justify-content: center;    /* centraliza horizontal */
+    align-items: center;        /* centraliza vertical */
+    border: 3px solid red;
+}
    
