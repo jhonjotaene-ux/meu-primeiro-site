@@ -1,14 +1,19 @@
 
 body {
-            background-color: #f4f4f4;
-            font-family: Arial;
-            margin: 0;
+        font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #1e293b;
+        line-height: 1,6;
+        background: #f8fafc;
+        line-height: 1.6;
         }
     .container {
-        max-width: 900px;
-        margin: auto;
+        max-width: 1100px;
+        margin: 0 auto;
         padding: 0 20px;
         
+    }
+    section {
+        padding: 80px 20px;
     }
     .main-content {
         background: white;
@@ -16,14 +21,19 @@ body {
         border-radius: 10px;
         margin-top: 40px;    
     }
-
+    h1, h2, h3 {
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
     h1 {
-        color: #2c3e50;
+        font-size: 40px;
+        color: #1e293b;
     
     }
 
     h2 {
-        color: #34495e;
+        font-size: 30px;
+        color: #2563eb;
 
     }
 
@@ -33,6 +43,7 @@ body {
     }
 
     img {
+        
         width: 100%;
         border-radius: 5px;
 
@@ -161,6 +172,20 @@ body {
         font-size: 20px;
         margin-bottom: 30px;
     }
+    button, .btn {
+        background: #2563eb;
+        color: white;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+
+    }
+    button:hover, .btn:hover {
+        background: #1d4ed8;
+        transform: translateY(-3px);
+    }
     .btn {
         display: inline-block; /*MUITO IMPORTANTE */
         background-color: #00c6ff;
@@ -174,7 +199,7 @@ body {
     .btn:hover {
         background-color: white;
         transform: scale(1.1);
-    }
+    }  
     .teste-flex {display: flex;
         background: #a89d9d;
         padding: 20px;
@@ -208,4 +233,49 @@ body {
     align-items: center;        /* centraliza vertical */
     border: 3px solid red;
 }
-   
+.sobre {
+    padding: 60px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+.sobre h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+.sobre p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.servicos h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+
+}
+.sevicos {
+    
+    padding: 60px 20px;
+    text-align: center;
+    background: white;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 260px;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+.card:hover {
+    transform: translate(-8px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
